@@ -11,11 +11,11 @@ export default function PeopleList({ history }: PersonListProps) {
 
   return (
     <div>
-      <ul className="space-y-4">
+      <ul className="space-y-2">
         {history.map((person, index) => (
           <li
             key={index}
-            className="flex items-center space-x-4 p-4 border-b border-gray-300"
+            className="flex items-center gap-2 p-2 border-b border-gray-300"
           >
             <img
               src={person.picture}
